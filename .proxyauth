@@ -1,4 +1,5 @@
 ## Add users in below formats:
 #user:CL:password
+#only MD5 crypt passwords are supported
 #user:CR:encrypted_password
 admin:CL:Cerim-gekathaseVEbu9
