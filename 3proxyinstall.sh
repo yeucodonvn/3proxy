@@ -19,3 +19,5 @@ cd /etc/init.d/
 wget --no-check-certificate  https://raw.github.com/yeucodonvn/3proxy/master/3proxy
 chmod  +x /etc/init.d/3proxy
 update-rc.d 3proxy defaults
+echo "start 3proxy"
+service 3proxy start
