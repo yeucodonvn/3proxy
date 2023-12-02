@@ -21,3 +21,5 @@ chmod  +x /etc/init.d/3proxy
 update-rc.d 3proxy defaults
 echo "start 3proxy"
 service 3proxy start
+netstat -tulpn | grep 8088
+netstat -tulpn | grep 9999
